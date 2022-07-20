@@ -15,7 +15,8 @@
  - Проверена работоспособность VPN, проверено хождение в `someinternalhost` напрямую со включенным ВПН
 
 ## IP-адреса виртуалок:
- bastion_IP = 51.250.94.221 someinternalhost = 10.128.0.34
+bastion_IP = 51.250.94.221
+someinternalhost_IP = 10.128.0.34
 
 ## Допзадание с подключением к `someinternalhost`
 
