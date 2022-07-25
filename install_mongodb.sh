@@ -1,8 +1,9 @@
 #!/bin/bash
 echo "Start installing MongoDb"
 echo "$(sudo apt-get update)"
-echo "deb https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-5.0.list
-wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+echo 'wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -'
+echo "$(wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -)"
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodborg/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 echo 'apt-get install mongodb-org:'
 echo "$(sudo apt-get install -y mongodb-org)"
 echo 'systemctl start mongod:'
