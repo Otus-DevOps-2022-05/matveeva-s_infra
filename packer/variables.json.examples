@@ -1,0 +1,6 @@
+{
+  "folder_id": "test123456789",
+  "service_account_key_file": "path/to/key.json",
+  "source_image_family": "ubuntu-smth",
+  "ssh_username": "ubuntu-smb"
+}
