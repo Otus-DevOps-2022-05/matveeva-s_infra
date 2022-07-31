@@ -1,2 +1,4 @@
 *.DS_Store
 .DS_Store
+packer/variables.json
+packer/packer
