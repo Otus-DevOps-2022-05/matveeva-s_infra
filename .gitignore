@@ -2,3 +2,11 @@
 .DS_Store
 packer/variables.json
 packer/packer
+terraform/terraform
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.idea/
+.terraform/
+terraform.tfvars
