@@ -1,0 +1,8 @@
+cloud_id = "my_cloud_id"
+folder_id = "my_folder_id"
+token = "my_token"
+zone = "ru-central1-a"
+image_id = "my_image_id"
+public_key_path = "~/.ssh/path_to_key/yk.pub"
+private_key_path = "~/.ssh/path_to_key/yk"
+subnet_id = "my_subnet_id"
