@@ -33,7 +33,3 @@ variable db_disk_image {
   description = "Disk image for reddit db"
   default = "reddit-db-base"
 }
-
-variable bucket_name {
-  description = "Bucket name to state saving"
-}
